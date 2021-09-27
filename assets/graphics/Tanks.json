@@ -1,0 +1,14 @@
+{ "columns":32,
+ "image":"..\/..\/..\/BattleCity\/Assets\/Graphics\/Tanks.png",
+ "imageheight":512,
+ "imagewidth":1024,
+ "margin":0,
+ "name":"Tanks",
+ "spacing":0,
+ "tilecount":512,
+ "tiledversion":"1.7.2",
+ "tileheight":32,
+ "tilewidth":32,
+ "type":"tileset",
+ "version":"1.6"
+}
