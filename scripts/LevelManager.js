@@ -59,6 +59,7 @@ export default class LevelManager {
             clearInterval(this.updateInterval);
             
             setTimeout(()=>{
+                this.context.isLevelActive = false;
                 this.context.scene.start('win');
                 this.allEnemys.forEach(element => {
                     element.stop();
@@ -67,10 +68,11 @@ export default class LevelManager {
                 this.context.scene.remove('level');
             }, 1000)
         }
-        if(this.lifeCounter.text == 0){
+        if(this.lifeCounter.text == 0 || !this.context.isBase){
             clearInterval(this.updateInterval);
             
             setTimeout(()=>{
+                this.context.isLevelActive = false;
                 this.context.scene.start('wasted');
                 this.allEnemys.forEach(element => {
                     element.stop();

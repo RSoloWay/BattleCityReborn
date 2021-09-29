@@ -20,14 +20,14 @@ class Menu extends Phaser.Scene{
         this.load.image('Ground', 'assets/graphics/Ground.png');
         this.load.image('Bullet', 'assets/graphics/Bullet.png');
         this.load.image('wasted', 'assets/graphics/wasted.jpg');
-        this.load.audio('theme', 'assets/audio/levelstarting.ogg');
-        this.load.audio('moving', 'assets/audio/moving.ogg');
-        this.load.audio('nmoving', 'assets/audio/nmoving.ogg');
-        this.load.audio('shoot', 'assets/audio/shoot.ogg');
-        this.load.audio('brickhit', 'assets/audio/brickhit.ogg');
-        this.load.audio('steelhit', 'assets/audio/steelhit.ogg');
-        this.load.audio('explode', 'assets/audio/fexplosion.ogg');
-        this.load.audio('enemy_explode', 'assets/audio/eexplosion.ogg');
+        this.load.audio('theme', '../assets/audio/levelstarting.ogg');
+        this.load.audio('moving', '../assets/audio/moving.ogg');
+        this.load.audio('nmoving', '../assets/audio/nmoving.ogg');
+        this.load.audio('shoot', '../assets/audio/shoot.ogg');
+        this.load.audio('brickhit', '../assets/audio/brickhit.ogg');
+        this.load.audio('steelhit', '../assets/audio/steelhit.ogg');
+        this.load.audio('explode', '../assets/audio/fexplosion.ogg');
+        this.load.audio('enemy_explode', '../assets/audio/eexplosion.ogg');
     }
 
     create(){

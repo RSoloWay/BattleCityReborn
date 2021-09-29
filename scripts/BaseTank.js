@@ -63,6 +63,7 @@ export default class BaseTank{
 
     initMove(dir){
         clearInterval(this.moveTic);
+        if(!this.context.isLevelActive){return};
         this.tank.rotation = directionAngle[dir];
         switch(dir){
             case 'top':
